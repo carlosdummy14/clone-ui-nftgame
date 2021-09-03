@@ -1,24 +1,24 @@
-const webpackCommon = require('./webpack.common')
-const { merge } = require('webpack-merge')
+const {merge} = require('webpack-merge')
 
-const devConfig= {
+const webpackCommon = require('./webpack.common')
+
+const devConfig = {
   mode: 'development',
-  devServer:{
-    historyApiFallback:true,
-    host:"127.0.0.1",
-    open:false,
-    port:3001,
-    hot:true
+  devServer: {
+    historyApiFallback: true,
+    host: '127.0.0.1',
+    open: false,
+    port: 3001,
+    hot: true
   },
-  module:{
-    rules:[
+  module: {
+    rules: [
       {
         test: /\.(css|sass|scss)$/,
-        use:['style-loader','css-loader','sass-loader','postcss-loader'],
-      },
-
+        use: ['style-loader', 'css-loader', 'sass-loader', 'postcss-loader']
+      }
     ]
   }
 }
 
-module.exports=merge(webpackCommon,devConfig)
+module.exports = merge(webpackCommon, devConfig)

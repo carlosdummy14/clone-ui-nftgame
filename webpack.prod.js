@@ -1,22 +1,23 @@
-const webpackCommon = require('./webpack.common')
-const { merge } = require('webpack-merge')
+const {merge} = require('webpack-merge')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
-const prodConfig= {
+const webpackCommon = require('./webpack.common')
+
+const prodConfig = {
   mode: 'production',
   optimization: {
     splitChunks: {
       chunks: 'all'
     }
   },
-  module:{
-    rules:[
+  module: {
+    rules: [
       {
         test: /\.(css|sass|scss)$/,
-        use:[MiniCssExtractPlugin.loader,'css-loader','sass-loader','postcss-loader'],
-      },
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader', 'postcss-loader']
+      }
     ]
   }
 }
 
-module.exports= merge(webpackCommon, prodConfig)
+module.exports = merge(webpackCommon, prodConfig)
