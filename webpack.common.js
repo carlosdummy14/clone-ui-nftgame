@@ -26,10 +26,6 @@ module.exports = {
         exclude: "/node_modules/",
       },
       {
-        test: /\.(css|sass|scss)$/,
-        use:['style-loader','css-loader','sass-loader','postcss-loader'],
-      },
-      {
         type: 'asset',
         test:/\.(png|svg|jpg|gif)/i,
       }

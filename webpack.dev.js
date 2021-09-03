@@ -10,6 +10,15 @@ const devConfig= {
     port:3001,
     hot:true
   },
+  module:{
+    rules:[
+      {
+        test: /\.(css|sass|scss)$/,
+        use:['style-loader','css-loader','sass-loader','postcss-loader'],
+      },
+
+    ]
+  }
 }
 
 module.exports=merge(webpackCommon,devConfig)
