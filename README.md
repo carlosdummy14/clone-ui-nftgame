@@ -1,10 +1,13 @@
-# Base Project
+# Clone UI NFT game Plant vs Undead
+#### I use
 * React
 * Webpack
 * Babel
+* PostCss
 * Sass
 
-## Need
-* Linter and Formatter
-  * Standard for JavaScript
-  * Prettier for CSS, HTML, JSON, etc.
+#### You can
+* Clone project
+* npm install
+* npm run dev
+* npm run build

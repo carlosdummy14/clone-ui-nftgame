@@ -1,16 +1,16 @@
 import React from 'react'
 
-import {NAME} from './config'
-import './App.css'
+import Header from './components/Header'
+import Sidebar from './components/Sidebar'
+import Main from './components/Main'
 import './App.scss'
 
 const App = () => {
-  console.log(NAME)
-
   return (
     <div className="App">
-      <h2>App React</h2>
-      <input id=" " name="" type="text" />
+      <Header />
+      <Sidebar />
+      <Main />
     </div>
   )
 }
