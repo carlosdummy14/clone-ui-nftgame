@@ -1,6 +1,57 @@
 .header {
+  display: flex;
+  background-color: var(--color-dark);
+  justify-content: center;
+  height: 60px;
 }
 
-.list {
-  list-style: none;
+.header-container {
+  min-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 13rem 0 13rem;
+  height: 100%;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 36px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.binanceactive {
+  transition: 0.5s;
+  transform: rotate(180deg);
+}
+
+.menu-pop {
+  width: 230px;
+  height: 150px;
+  background-color: var(--color-dark);
+  position: absolute;
+  top: 90%;
+  right: 0;
+  border-radius: 20px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid var(--color-primary);
+  color: var(--color-secondary);
+  font-size: var(--font-small);
+
+  & .line-text {
+    display: flex;
+    align-items: center;
+    margin-top: 0.8rem;
+  }
 }

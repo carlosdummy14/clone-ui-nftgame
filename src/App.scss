@@ -1,7 +1,16 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");*/
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
 :root {
-  --color-primary: white;
-  --color-secondary: tomato;
+  --color-primary: #6a748c;
+  --color-secondary: white;
   --color-background: green;
+  --color-dark: #000;
+  --font-roboto: "Roboto", sans-serif;
+  --font-monserrat: "Monstserrat", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-small: 14px;
 }
 
 // reset
@@ -10,12 +19,14 @@ body,
 #app {
   width: 100%;
   height: 100%;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
   background-color: var(--color-background);
-  color: var(--color-primary);
+  color: var(--color-secondary);
+  font-family: var(--font-poppins);
 }
 
 h1,
@@ -34,4 +45,14 @@ a {
 .App {
   width: 100%;
   height: 100%;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.space-small {
+  width: 0.5rem;
 }
