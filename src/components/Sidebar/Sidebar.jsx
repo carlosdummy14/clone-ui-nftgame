@@ -1,10 +1,12 @@
 import React from 'react'
 
+import './Sidebar.scss'
+import Saplings from '../Saplings/Saplings'
+
 const Sidebar = () => {
   return (
-    <>
-      <h3>sidebar</h3>
-      <div>saplin counter</div>
+    <div className="sidebar-container">
+      <Saplings qty={40} />
       <div>
         <h4>Tools</h4>
         <div>small</div>
@@ -18,7 +20,7 @@ const Sidebar = () => {
         <div>assets</div>
         <div>world tree</div>
       </div>
-    </>
+    </div>
   )
 }
 

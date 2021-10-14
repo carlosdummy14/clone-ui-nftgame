@@ -1,0 +1,50 @@
+.saplings {
+  display: flex;
+  align-items: center;
+  width: 195px;
+  height: 3.6rem;
+  border-radius: 12px;
+  border: 4px solid #133f73;
+  background: linear-gradient(0deg, #3f87dd 0%, #8cd6ff 100%);
+  margin-top: 1.4rem;
+  margin-left: 0.4rem;
+  overflow: hidden;
+}
+
+.saplins-shadow {
+  width: 100%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 100%;
+  align-items: center;
+  padding: 0.1rem 0.1rem 0.1rem 0.6rem;
+  background-color: #5ba6fd;
+  border-radius: 8px;
+}
+
+.saplings-counter {
+  border-radius: 6px;
+  background-color: #3477c8;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.4rem 0 0.3rem;
+}
+
+.sapling-img {
+  height: 120%;
+}
+
+.sapling-text {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.sapling-change {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+}
