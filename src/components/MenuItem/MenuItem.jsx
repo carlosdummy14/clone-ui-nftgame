@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-import MENU_OPTION from '../../utils/menu-option'
+import {MENU_OPTION} from '../../utils'
 import './MenuItem.scss'
 
 const MenuItem = ({option}) => {

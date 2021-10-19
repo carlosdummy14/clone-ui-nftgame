@@ -8,8 +8,13 @@ import offeringIconActive from '../assets/offering-active.svg'
 import offeringIconInactive from '../assets/offering-inactive.svg'
 import accountIconActive from '../assets/account-active.svg'
 import accountIconInactive from '../assets/account-inactive.svg'
+import smallPotIcon from '../assets/small pot.png'
+import bigPotIcon from '../assets/big pot.png'
+import waterIcon from '../assets/water.png'
+import scareCrowIcon from '../assets/scarecrow.png'
+import greenHouseIcon from '../assets/greenhouse.png'
 
-const MENU_OPTION = [
+export const MENU_OPTION = [
   {
     text: 'Dashboard',
     iconInactive: dashboardIconInactive,
@@ -37,4 +42,10 @@ const MENU_OPTION = [
   }
 ]
 
-export default MENU_OPTION
+export const TOOL_ICON = {
+  smallpot: smallPotIcon,
+  bigpot: bigPotIcon,
+  water: waterIcon,
+  scarecrow: scareCrowIcon,
+  greenhouse: greenHouseIcon
+}

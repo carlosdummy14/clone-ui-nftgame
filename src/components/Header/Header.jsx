@@ -33,7 +33,11 @@ const Header = () => {
               <a className="menu__item--anchor" href="#">
                 <img alt="binance" className="menu__item--img" src={binanceIcon} />
                 0x123..123
-                <img alt="arrow" className={binanceactive && `binanceactive`} src={arrowIcon} />
+                <img
+                  alt="arrow"
+                  className={`${binanceactive ? `binanceactive` : ''}`}
+                  src={arrowIcon}
+                />
               </a>
               {binanceactive ? (
                 <div className="menu-pop">
