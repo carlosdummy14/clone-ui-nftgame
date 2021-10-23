@@ -13,6 +13,12 @@ import bigPotIcon from '../assets/big pot.png'
 import waterIcon from '../assets/water.png'
 import scareCrowIcon from '../assets/scarecrow.png'
 import greenHouseIcon from '../assets/greenhouse.png'
+import shopIcon from '../assets/shop.png'
+import shopText from '../assets/Shoptext.png'
+import assetsIcon from '../assets/assets.png'
+import assetsText from '../assets/Assetstext.png'
+import worldtreeIcon from '../assets/world-tree.png'
+import worldtreeText from '../assets/WorldTreetext.png'
 
 export const MENU_OPTION = [
   {
@@ -48,4 +54,13 @@ export const TOOL_ICON = {
   water: waterIcon,
   scarecrow: scareCrowIcon,
   greenhouse: greenHouseIcon
+}
+
+export const SIDEFOOTER_ICON = {
+  shopIcon,
+  shopText,
+  assetsIcon,
+  assetsText,
+  worldtreeIcon,
+  worldtreeText
 }

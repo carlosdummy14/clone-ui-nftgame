@@ -1,4 +1,6 @@
 .sidebar-container {
   width: 220px;
   height: 100%;
+  display: grid;
+  grid-template-rows: 90px 440px 1fr;
 }

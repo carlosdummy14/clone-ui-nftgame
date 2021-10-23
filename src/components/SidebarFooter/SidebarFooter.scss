@@ -1,0 +1,31 @@
+.sidebarfooter-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: auto;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  width: 100%;
+}
+
+.sidebarfooter--item {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: var(--color-secondary);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  width: 90px;
+}
+
+.item--icon {
+  width: 100%;
+}
+
+.item--text {
+  height: 1rem;
+}
