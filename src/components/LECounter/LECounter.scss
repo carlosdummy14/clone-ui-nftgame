@@ -1,0 +1,48 @@
+.lecounter {
+  display: flex;
+  align-items: center;
+  width: 160px;
+  height: 3.4rem;
+  border-radius: 12px;
+  border: 4px solid #133f73;
+  background: linear-gradient(0deg, #3f87dd 0%, #8cd6ff 100%);
+  margin-left: 0.4rem;
+  overflow: hidden;
+}
+
+.lecounter-shadow {
+  width: 100%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+  padding: 0.1rem 0.1rem 0.1rem 0.3rem;
+  background-color: #5ba6fd;
+  border-radius: 8px;
+}
+
+.lecounter-counter {
+  border-radius: 6px;
+  background-color: #3477c8;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 0.3rem;
+}
+
+.lecounter-img {
+  width: 1.5rem;
+}
+
+.lecounter-text {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-left: 0.4rem;
+}
+
+.lecounter-change {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

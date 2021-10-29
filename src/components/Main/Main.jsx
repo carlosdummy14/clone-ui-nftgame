@@ -1,21 +1,12 @@
 import React from 'react'
 
+import './Main.scss'
+import MainHeader from '../MainHeader/MainHeader'
+
 const Main = () => {
   return (
-    <>
-      <h3>Main</h3>
-      <header>
-        <div>
-          <div>info</div>
-          <div>pvu counter</div>
-          <div>add pvu</div>
-          <div>filter</div>
-        </div>
-        <div>
-          <div>harvest all</div>
-          <div>le counter</div>
-        </div>
-      </header>
+    <div className="main-container">
+      <MainHeader />
       <div>
         <div>
           <div>
@@ -34,7 +25,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
