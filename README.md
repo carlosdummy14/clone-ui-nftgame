@@ -1,13 +1,14 @@
 # Clone UI NFT game Plant vs Undead
-#### I use
+#### I want to pratice and use
 * React
 * Webpack
 * Babel
-* PostCss
+* Postcss
 * Sass
 
-#### You can
-* Clone project
-* npm install
-* npm run dev
-* npm run build
+#### Commands
+```bash
+npm install
+npm run dev
+```
+Open in localhost 3001
